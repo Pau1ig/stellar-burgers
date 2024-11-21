@@ -21,7 +21,6 @@ export const AppHeaderUI: FC<TAppHeaderUIProps> = ({ userName }) => (
               className={({ isActive }) =>
                 `${styles.link} ${isActive ? styles.link_active : ''}`
               }
-              end
             >
               Конструктор
             </NavLink>
@@ -35,7 +34,6 @@ export const AppHeaderUI: FC<TAppHeaderUIProps> = ({ userName }) => (
               className={({ isActive }) =>
                 `${styles.link} ${isActive ? styles.link_active : ''}`
               }
-              end
             >
               Лента заказов
             </NavLink>
@@ -55,7 +53,6 @@ export const AppHeaderUI: FC<TAppHeaderUIProps> = ({ userName }) => (
             className={({ isActive }) =>
               `${styles.link} ${isActive ? styles.link_active : ''}`
             }
-            end
           >
             {userName || 'Личный кабинет'}
           </NavLink>
